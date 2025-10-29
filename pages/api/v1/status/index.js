@@ -15,7 +15,7 @@ async function status(request, response) {
   });
   const databaseactValue = databaseAct.rows[0].count;
 
-  console.log(databaseAct)
+  //console.log(databaseAct)
 
   response.status(200).json({
     updated_at: updatedAt,
