@@ -14,7 +14,7 @@ export default async function migrations(request, response) {
          verbose: true,
          migrationsTable: "pgmigrations",
       });
-      await dbClient.end();
+      //await dbClient.end();
       return response.status(200).json(migrations);
   }
     
@@ -27,7 +27,7 @@ export default async function migrations(request, response) {
         verbose: true,
         migrationsTable: "pgmigrations",
     });
-  await dbClient.end();
+ // await dbClient.end();
   response.status(200).json(migrations);
   }
 return response.status(405).end();
