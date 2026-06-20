@@ -1,3 +1,3 @@
 # clone-tabnews
 
-Clone do repositório tabnews
+Clone do repositório tabnews para estudos
